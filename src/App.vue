@@ -10,6 +10,14 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  setup() {
+    // 1.我该如何创建响应式变量？(ref用来创建基础数据类型，reactive用来创建引用数据类型)
+    // 2.方法呢？
+    // 3.生命周期呢？
+    // 4.props?
+    // 5.计算属性和侦听器呢？
+    // 6.this.$route，现在又不能用this，从哪取？
   }
 }
 </script>
